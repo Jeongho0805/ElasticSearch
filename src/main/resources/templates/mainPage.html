@@ -6,18 +6,21 @@
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
 </head>
 <body>
-    <h1>장애인 고용 정보 검색</h1>
-    <form id="search-form">
-        <select id="type" name="검색타입">
+    <h1 id="title">장애인 고용 정보 검색</h1>
+    <div id="search-section" class="section">
+        <select id="type" name="검색타입" class="select-type">
             <option value="사업장명">사업장 명</option>
             <option value="사업장 주소">사업장 주소</option>
             <option value="모집직종">모집 직종</option>
             <option value="임금형태">임금 형태</option>
         </select>
         <input id="keyword" type="text" name="keyword" placeholder="검색어를 입력하세요">
-        <button type="button" onclick="search()">검색</button>
-    </form>
-    <div id="data-section">
+        <button id="search-button" type="button" onclick="search()"></button>
+    </div>
+    <div id="data-section" class="section">
+        <div id="data-count">
+
+        </div>
         <table id="data-table">
             <thead>
                 <tr>
