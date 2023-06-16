@@ -1,0 +1,109 @@
+#data-table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+#data-table td, th {
+    border: 3px solid lightcoral;
+    text-align: center;
+    padding: 2px;
+    font-size: 15px;
+}
+
+#data-table th {
+    font-size: 15px;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Cafe24Ssurround', sans-serif;
+    color: lightcoral;
+}
+
+#keyword {
+    border-radius: 5px;
+    padding: 2px;
+    border: lightpink solid 3px;
+    font-family: 'Cafe24Ssurround', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: lightcoral;
+}
+
+#keyword::placeholder {
+    font-family: 'Cafe24Ssurround', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: lightcoral;
+}
+
+#keyword:focus {
+    font-family: 'Cafe24Ssurround', sans-serif;
+    color: lightcoral;
+    outline-color: lightcoral;
+}
+
+#data-section {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#search-button {
+    cursor: pointer;
+    background-color: white;
+    background-image: url(/img/searchButton.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+#data-section {
+    flex-direction: column;
+}
+
+#data-count {
+    margin-left: auto;
+    font-family: 'Cafe24Ssurround', sans-serif;
+    font-size: 20px;
+    color: lightcoral;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-type {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: lightcoral;
+    color: snow;
+    font-family: 'Cafe24Ssurround', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: lightpink solid 1px;
+    padding: 3px;
+}
+
+body {
+    font-family: 'Cafe24Ssurround', sans-serif;
+    color: #434343;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
