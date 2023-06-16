@@ -96,6 +96,10 @@
     padding: 3px;
 }
 
+.select-type:focus {
+    outline-color: lightcoral;
+}
+
 body {
     font-family: 'Cafe24Ssurround', sans-serif;
     color: #434343;
