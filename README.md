@@ -14,3 +14,11 @@
 <img src="https://github.com/Jeongho0805/ElasticSearch/blob/master/src/main/resources/static/img/function.gif" > 
 
 </div>
+
+<br/>
+
+## 💁 데이터 정보
+- **출처 : 한국 장애인 고용 공단**
+- **데이터 갯수 : 2983개**
+- **Kibana 데이터 화면**
+<img src="https://github.com/Jeongho0805/ElasticSearch/blob/Readme/src/main/resources/static/img/data.png"> 
